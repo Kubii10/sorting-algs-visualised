@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "visualsort"
-version = "0.1.0"
+version = "0.2.0"
 description = "Library to visualise sorting"
 authors = [
     { name="Kubii10", email="supcod34@email.com" }
@@ -12,5 +12,5 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "pygame>=2.0.0"
+    "pygame>=2.0.0, numpy"
 ]
